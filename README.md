@@ -15,7 +15,7 @@ Choose what git provider that you use. I am choosing Github in this step.
 Search and choose repository you want to deploy
 ![third-step](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/third-step.png)
 
-## step Four: Build options and deploy
+## Step Four: Build options and deploy
 
 - You can choose any branch from your repository instead of the `main` branch. 
 - Type this `CI= npm run build` in the Build Command.
