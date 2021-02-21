@@ -1,6 +1,7 @@
 import "./App.css";
 import { Switch, Route, Link } from "react-router-dom";
 import Users from "components/Users";
+import Posts from "components/Posts";
 
 function App() {
   return (
@@ -22,13 +23,15 @@ function App() {
 
         <Switch>
           <Route path="/posts">
-            <div>post</div>
+            <Posts />
           </Route>
           <Route path="/users">
             <Users />
           </Route>
           <Route path="/">
-            <div>home</div>
+            <div>
+              <h1>home</h1>
+            </div>
           </Route>
         </Switch>
       </div>

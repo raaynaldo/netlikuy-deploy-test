@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
+import axios from "axios";
 
 const Users = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(async () => {
-    const res = await fetch("api/v1/users");
-    const data = await res.json();
-    setUsers(data);
-    console.log(process.env.REACT_APP_API_SERVER_DEVELOPMENT)
+    axios.get("/users").then((res) => {
+      setUsers(res.data);
+    });
   }, []);
 
   return (
