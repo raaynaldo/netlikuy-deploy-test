@@ -21,3 +21,12 @@ Search and choose repository you want to deploy
 - Type this `CI= npm run build` in the Build Command.
 - Click `Deploy site`!
 ![fourh-step](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/fourth-step.png)
+
+## Step Five: Change the site name (Optional)
+
+- Go to `Site Settings`.
+![site-name-first](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/site-name-first.png)
+- Click `Site details` and `Change site name`.
+![site-name-second](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/site-name-second.png)
+- Change the name and save.
+![site-name-third](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/site-name-third.png)
