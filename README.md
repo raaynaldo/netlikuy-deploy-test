@@ -2,7 +2,7 @@
 
 ## Step One: Login to Netlify
 
-Click `New site from Git` in the home page after you are login.
+Click `New site from Git` on the home page after you are logged in.
 ![first-step](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/first-step.png)
 
 ## Step Two: Choose your git provider
@@ -12,7 +12,7 @@ Choose what git provider that you use. I am choosing Github in this step.
 
 ## Step Three: Choose your repository
 
-Search and choose repository you want to deploy
+Search and choose the repository you want to deploy
 ![third-step](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/third-step.png)
 
 ## Step Four: Build options and deploy
@@ -36,7 +36,7 @@ Search and choose repository you want to deploy
 Page Not Found
 Looks like you're followed a broken link or entered a URL that doesn't exist on this site.
 ```
-If you are using `react-router-dom` and you get this error message when you try reload the route page.
+If you are using `react-router-dom` and you get this error message when you try to reload the route page.
 ![error](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/error.png)
 
 Create a `_redirects` file inside the `public` folder and copy this code
