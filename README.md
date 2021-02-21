@@ -32,7 +32,10 @@ Search and choose repository you want to deploy
 ![site-name-third](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/site-name-third.png)
 
 ## React Router DOM Problem
-
+```
+Page Not Found
+Looks like you're followed a broken link or entered a URL that doesn't exist on this site.
+```
 If you are using `react-router-dom` and you get this error message when you try reload the route page.
 ![error](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/error.png)
 
@@ -41,3 +44,5 @@ Create a `_redirects` file inside the `public` folder and copy this code
 /* /index.html 200
 ```
 ![_redirects](https://raw.githubusercontent.com/raaynaldo/netlikuy-deploy-test/main/screen-shoot/redirects.png)
+
+https://netlikuy-deploy-test.netlify.app/
